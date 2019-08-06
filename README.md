@@ -7,6 +7,7 @@ Starsector 0.9.1 Korean Localization
 * data/characters/skills/aptitude_data.csv
 
 ==작업중인 목록==
+
 ClockworkOwl
 * data/campaign/rules.csv
 * data/characters/skills/aptitude_data.csv
