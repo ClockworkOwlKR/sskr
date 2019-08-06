@@ -1,0 +1,6 @@
+id,name,desc,bravery,CAPTURE,PATROL,INTERCEPT,ASSAULT,DEFEND,STRIKE,HARASS,FIRE_SUPPORT,CARRIER_GROUP,CIVILIAN_CRAFT,STRIKE_FORCE,LIGHT_ESCORT,DESTROYER_ESCORT
+timid,소심한(Timid),이 장교는 전투함에 배정되어 있더라도 가능한 한 직접적인 교전을 피하려고 할 것입니다.,5,0.5,0.5,0.1,0,1,0,0,3,3,3,1,1,1
+cautious,신중한(Cautious),이 장교는 적의 사거리 밖에 있는 것을 선호합니다. 적이 자신보다 사거리가 더 길 때만 접근을 시도할 것입니다.,5,1,0.7,0.3,0.3,2,0.3,0.3,2,2,2,1,1,1
+steady,안정적인(Steady),이 장교는 상황에 따라 균형 있게 전술을 변경할 것입니다.,5,1,1,1,1,1,1,1,1,1,1,1,1,1
+aggressive,공격적인(Aggressive),"이 장교는 자기 함선의 모든 무기를 사용할 수 있는 거리에서의 교전을 선호합니다. 민간 선박을 전투함처럼 운용할 것이며, 지휘하는 함재기 역시 공격적으로 사용할 것입니다.",5,1.5,1,2,2,0.5,2,2,0.5,0.5,0.5,1,0.5,0.5
+reckless,무모한(Reckless),이 장교는 극히 공격적입니다. 적과 교전하기 위해 자기 함선의 안전조차 고려하지 않을 수도 있습니다.,5,1.5,1,2,2,0.5,2,2,0.5,0.5,0.5,1,0.5,0.5
