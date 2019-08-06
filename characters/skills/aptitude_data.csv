@@ -1,0 +1,5 @@
+id,name,color,description,order,effect_skill_id,sound1,sound2,sound3
+combat,전투,"220,94,41,255",지휘하는 함선의 전투능력을 직접적으로 향상시킵니다.,1,aptitude_combat,combat1,combat2,combat3
+leadership,지휘,"107,175,0,255","함대 전체의 전투 능력을 향상시키고, 함재기를 더 효과적으로 만듭니다.",2,aptitude_leadership,leadership1,leadership2,leadership3
+technology,기술,"0,121,216,255",함대 전체의 전투와 비전투 분야의 능력을 골고루 향상시킵니다.,3,aptitude_technology,technology1,technology2,technology3
+industry,산업,"175,135,0,255",탐사와 인양 작업을 더 효과적으로 합니다.,4,aptitude_industry,industry1,industry2,industry3
