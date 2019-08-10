@@ -11,3 +11,7 @@ Starsector 0.9.1 Korean Localization
 ClockworkOwl
 * data/campaign/rules.csv
 * data/characters/skills/aptitude_data.csv
+
+
+3sooham
+* data/campaign/commodities.csv
