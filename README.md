@@ -15,3 +15,5 @@ ClockworkOwl
 
 3sooham
 * data/campaign/commodities.csv
+* data/campaign/industries.csv
+* data/campaign/market_conditions.csv
