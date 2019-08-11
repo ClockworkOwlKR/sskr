@@ -12,7 +12,6 @@ ClockworkOwl
 * data/campaign/rules.csv
 * data/characters/skills/aptitude_data.csv
 
-
 3sooham
 * data/campaign/commodities.csv
 * data/campaign/industries.csv
