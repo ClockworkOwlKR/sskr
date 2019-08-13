@@ -38,16 +38,16 @@ Headquarters,headquarters,,TRUE,com.fs.starfarer.api.impl.campaign.econ.Headquar
 Increases the quality and number of officers in $market's fleets.",graphics/icons/markets/headquarters.png,360
 Hydroponics Complex,hydroponics_complex,,TRUE,com.fs.starfarer.api.impl.campaign.econ.Hydroponics,"Sealed-biosphere agricultural production facilities which allow farming in orbit or on the surface of inhospitable worlds. Requires crew to operate, organic growth medium, and heavy machinery for upkeep.",graphics/icons/markets/hydroponics.png,120
 ,,,,,,,
-인구,population_1,,TRUE,com.fs.starfarer.api.impl.campaign.econ.Population,오직 십여명의 사람들만 이곳에 거주하고 있습니다.,graphics/icons/markets/population01.png,20
-인구,population_2,,TRUE,com.fs.starfarer.api.impl.campaign.econ.Population,Mere hundreds of people populate $market.,graphics/icons/markets/population02.png,20
-인구,population_3,,TRUE,com.fs.starfarer.api.impl.campaign.econ.Population,Thousands of people call $market home.,graphics/icons/markets/population03.png,20
-인구,population_4,,TRUE,com.fs.starfarer.api.impl.campaign.econ.Population,Tens of thousands of people live on $market.,graphics/icons/markets/population04.png,20
-인구,population_5,,TRUE,com.fs.starfarer.api.impl.campaign.econ.Population,$market is home to hundreds of thousands of people.,graphics/icons/markets/population05.png,20
-인구,population_6,,TRUE,com.fs.starfarer.api.impl.campaign.econ.Population,The population of $market is in the millions.,graphics/icons/markets/population06.png,20
-인구,population_7,,TRUE,com.fs.starfarer.api.impl.campaign.econ.Population,$market is a world of tens of millions.,graphics/icons/markets/population07.png,20
-인구,population_8,,TRUE,com.fs.starfarer.api.impl.campaign.econ.Population,$market is one of the few worlds in the Sector with a population of hundreds of millions.,graphics/icons/markets/population08.png,20
-인구,population_9,,TRUE,com.fs.starfarer.api.impl.campaign.econ.Population,"A precious refuge for humanity in a dangerous galaxy, $market is home to billions of souls.",graphics/icons/markets/population09.png,20
-인구,population_10,,TRUE,com.fs.starfarer.api.impl.campaign.econ.Population,"$market is a dominant population center in the Sector, a rival to Old Earth as home to tens of billions of humans.",graphics/icons/markets/population10.png,20
+인구,population_1,,TRUE,com.fs.starfarer.api.impl.campaign.econ.Population,단지 수십명의 사람들만 이곳에 거주하고 있습니다.,graphics/icons/markets/population01.png,20
+인구,population_2,,TRUE,com.fs.starfarer.api.impl.campaign.econ.Population,겨우 수백명의 사람들만 $market에 살고 있습니다.,graphics/icons/markets/population02.png,20
+인구,population_3,,TRUE,com.fs.starfarer.api.impl.campaign.econ.Population,수천명의 사람들이 $market을(를) 집으로 여기고 있습니다.,graphics/icons/markets/population03.png,20
+인구,population_4,,TRUE,com.fs.starfarer.api.impl.campaign.econ.Population,수만명의 사람들이 $market에서 살아가고 있습니다.,graphics/icons/markets/population04.png,20
+인구,population_5,,TRUE,com.fs.starfarer.api.impl.campaign.econ.Population,$market은(는) 수십만의 사람들의 집입니다.,graphics/icons/markets/population05.png,20
+인구,population_6,,TRUE,com.fs.starfarer.api.impl.campaign.econ.Population,$market의 인구는 수백만명입니다.,graphics/icons/markets/population06.png,20
+인구,population_7,,TRUE,com.fs.starfarer.api.impl.campaign.econ.Population,$market은(는) 수천만명이 거주하는 세계입니다.,graphics/icons/markets/population07.png,20
+인구,population_8,,TRUE,com.fs.starfarer.api.impl.campaign.econ.Population,$market은(는) 섹터에서 몇 안되는 수억명이 사는 곳입니다.,graphics/icons/markets/population08.png,20
+인구,population_9,,TRUE,com.fs.starfarer.api.impl.campaign.econ.Population,위험한 은하계에서 인류에게 귀중한 피난처가 되는 $market은(는) 수십억의 영혼들의 집입니다.,graphics/icons/markets/population09.png,20
+인구,population_10,,TRUE,com.fs.starfarer.api.impl.campaign.econ.Population,"$market은(는) 섹터의 주된 인구 중심지며, 수백억명이 집으로 부를만큼 옛 지구에 견줄만합니다.",graphics/icons/markets/population10.png,20
 ,,,,,,,
 ,,,,,,,
 ,,,,,,,
