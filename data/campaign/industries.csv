@@ -1,94 +1,94 @@
 id,name,cost mult,build time,income,upkeep,downgrade,upgrade,tags,data,image,plugin,desc,order
 population,인구 & 기반시설,,,10,3,,,"population, unraidable, no_saturation_bombardment",,graphics/icons/industry/population.png,com.fs.starfarer.api.impl.campaign.econ.impl.PopulationAndInfrastructure,조잡한 궤도 거주지부터 거대 도시까지 거주민들이 살아가는데 필요한 기본적인 기반시설입니다.,100
-farming,농장,15,60,,1,,,"farming, industry, rural",,graphics/icons/industry/farming.png,com.fs.starfarer.api.impl.campaign.econ.impl.Farming,"Agriculture is a trade and technology as old as civilization itself; for thousands of cycles Humanity has harnessed the power of natural, modified, and artificial biological machines for sustenance. So it has always been, so it shall be so long as humans are human.",200
-aquaculture,수경 농장,50,60,,3,,,"farming, industry, rural",,graphics/icons/industry/aquaculture.png,com.fs.starfarer.api.impl.campaign.econ.impl.Farming,"Farming on a water world requires a significant initial investment in bioengineering suitable species, but once the process takes off, algae farms and fisheries can be operated by the population without requiring much in the way of specialized training or equipment.",210
-mining,광산,20,60,,2,,,"mining, industry, industrial",,graphics/icons/industry/mining.png,com.fs.starfarer.api.impl.campaign.econ.impl.Mining,"금속과 준금속, 유기물 그리고 기체 화합물을 채굴하기 위해서는 중장비와 특별한 시설 그리고 숙련된 인부가 필요합니다. 이 고된 작업은The harsh work attracts a certain type, and an administration that's not willing to look the other way now and again may find itself running short of willing personnel.",300
-techmining,기술 광산,30,45,,2,,,"techmining, industry, industrial",,graphics/icons/industry/techmining.png,com.fs.starfarer.api.impl.campaign.econ.impl.TechMining,"Techmining is the motley art of recovering valuable artifacts from Domain ruins. Requires special tools to deal with unique hazards and expert judgement to know where to look for a good haul of baubles. The oldest techminers are a strange lot, clutching luck-charms and refusing to work without their rituals.",400
-refining,제련소,45,90,,3,,,"refining, industry, industrial",,graphics/icons/industry/refining.png,com.fs.starfarer.api.impl.campaign.econ.impl.Refining,광물과 방사성 광물을 제련하는 용광로입니다. 대부분의 위험한 작업은 원격 조종되는 로봇으로 작업하고 있습니다.,500
+farming,농업,15,60,,1,,,"farming, industry, rural",,graphics/icons/industry/farming.png,com.fs.starfarer.api.impl.campaign.econ.impl.Farming,"농업은 문명 자체만큼이나 오랜 역사를 지닌 기술과 산업입니다. 수천년에 걸쳐, 인류는 자연적이거나 개량되었거나 인공적인 작물들을 통해 스스로를 유지해 왔습니다. 지금까지 그랬던 것처럼, 인간이 인간으로 남아있는 한 계속해서 그리할 것입니다.",200
+aquaculture,수경 재배,50,60,,3,,,"farming, industry, rural",,graphics/icons/industry/aquaculture.png,com.fs.starfarer.api.impl.campaign.econ.impl.Farming,"바다 행성에서의 농업은 적절한 맞춤형 작물을 만드는 데 상당한 투자를 필요로 하지만, 일단 기반이 갖춰진 뒤에는 특화된 훈련이나 장비 없이도 수초 농장과 생선 양식장을 운영할 수 있습니다.",210
+mining,광산,20,60,,2,,,"mining, industry, industrial",,graphics/icons/industry/mining.png,com.fs.starfarer.api.impl.campaign.econ.impl.Mining,"금속과 준금속, 유기물 그리고 기체 화합물을 채굴하기 위해서는 중장비와 특별한 시설 그리고 숙련된 인부가 필요합니다. 이 고된 작업에 나서는 것은 주로 특정한 류의 인간 군상으로, 관리자들이 여러 가지를 눈감아주지 않는다면 인력난에 시달릴 수도 있습니다.",300
+techmining,기술 발굴,30,45,,2,,,"techmining, industry, industrial",,graphics/icons/industry/techmining.png,com.fs.starfarer.api.impl.campaign.econ.impl.TechMining,"기술 발굴은 도메인 시기 유적에서 유용한 유물들을 회수하는 데 관련된 잡다한 기술들입니다. 특이한 위험들에 대응하기 위한 특별 도구들과, 좋은 물건들을 많이 찾을 수 있는 장소를 가려내는 전문가의 눈이 필요합니다. 발굴 작업에 오래 종사한 이들은 대체로 괴팍하며, 행운의 부적을 들고 다니고 저마다의 고유한 의식을 치르기 전에는 작업을 하려 들지 않습니다.",400
+refining,제련소,45,90,,3,,,"refining, industry, industrial",,graphics/icons/industry/refining.png,com.fs.starfarer.api.impl.campaign.econ.impl.Refining,광물과 방사성 광물을 제련하는 용광로입니다. 대부분의 위험한 작업은 원격 조종되는 로봇을 통해 이뤄집니다.,500
 spaceport,우주항구,10,15,,3,,megaport,"spaceport, important, structure",,graphics/icons/industry/spaceport.png,com.fs.starfarer.api.impl.campaign.econ.impl.Spaceport,화물을 하역하고 기본적인 우주선 수리를 할 수 있는 시설입니다. 우주항구가 없는 식민지는 성간 교역에 참여할 수 없습니다.,150
-megaport,거대 우주항구,60,150,,4,spaceport,,"spaceport, structure",,graphics/icons/industry/megaport.png,com.fs.starfarer.api.impl.campaign.econ.impl.Spaceport,"A vast starport where the stars can touch the dirt. Regimented lander gantries and armoured fuel tanks are laced together by access-roads and short-haul cargo trams feeding a sprawl of warehouse districts and logistics terminals, all making the colony vastly more accessible.",151
-lightindustry,경공업 단지,45,90,,8,,,"lightindustry, industry, rural",,graphics/icons/industry/light_industry.png,com.fs.starfarer.api.impl.campaign.econ.impl.LightIndustry,소비재와 사치품을 생산하는 산업 단지입니다. 높은 수준의 기술이 요구되지 않아 대붕괴의 영향을 받지 않은 소수의 산업중의 하나입니다.,1400
-heavyindustry,중공업 단지,100,120,,12,,orbitalworks,"heavyindustry, uses_blueprints, industry, industrial",,graphics/icons/industry/heavy_industry.png,com.fs.starfarer.api.impl.campaign.econ.impl.HeavyIndustry,"Centralized manufacturing infrastructure for production of heavy industrial equipment, supplies, and weapons. Also capable of producing barely-spaceworthy starships; a nanoforge can be installed to improve production quality.",1600
-orbitalworks,궤도 중공업 단지,60,150,,12,heavyindustry,,"heavyindustry, uses_blueprints, industry, industrial",,graphics/icons/industry/orbital_works.png,com.fs.starfarer.api.impl.campaign.econ.impl.HeavyIndustry,"Centralized manufacturing infrastructure for production of heavy industrial equipment, supplies, and weapons. Also capable of producing barely-spaceworthy starships; a nanoforge can be installed to improve production quality.
+megaport,거대 우주항구,60,150,,4,spaceport,,"spaceport, structure",,graphics/icons/industry/megaport.png,com.fs.starfarer.api.impl.campaign.econ.impl.Spaceport,"거대한 우주 항구는 별과 땅이 맞닿는 곳입니다. 열을 맞춰 늘어선 착륙정 지지대와 강화된 연료 탱크들이 통로와 단거리 화물 트램 노선으로 엮여 거대한 창고 구획과 물류 터미널로 이어집니다. 이 모든 시설들은 식민지의 접근성을 크게 높입니다.",151
+lightindustry,경공업,45,90,,8,,,"lightindustry, industry, rural",,graphics/icons/industry/light_industry.png,com.fs.starfarer.api.impl.campaign.econ.impl.LightIndustry,소비재와 사치품을 생산하는 산업 단지입니다. 높은 수준의 기술이 요구되지 않아 대붕괴의 영향을 받지 않은 소수의 산업중의 하나입니다.,1400
+heavyindustry,중공업,100,120,,12,,orbitalworks,"heavyindustry, uses_blueprints, industry, industrial",,graphics/icons/industry/heavy_industry.png,com.fs.starfarer.api.impl.campaign.econ.impl.HeavyIndustry,"중공업 장비, 보급품과 무기를 생산하기 위한 중앙화된 제조 기반시설입니다. 간신히 우주여행이 가능한 수준의 선박을 건조할 수 있습니다. 나노포지를 설치하여 제품 품질을 향상할 수 있습니다.",1600
+orbitalworks,궤도 공업,60,150,,12,heavyindustry,,"heavyindustry, uses_blueprints, industry, industrial",,graphics/icons/industry/orbital_works.png,com.fs.starfarer.api.impl.campaign.econ.impl.HeavyIndustry,"중공업 장비, 보급품과 무기를 생산하기 위한 중앙화된 제조 기반시설입니다. 간신히 우주여행이 가능한 수준의 선박을 건조할 수 있습니다. 나노포지를 설치하여 제품 품질을 향상할 수 있습니다.
 
-Upgraded with an orbital component that further facilitates ship construction, resulting in fewer manufacturing defects.",1700
-fuelprod,Fuel Production,90,120,,10,,,"fuelprod, industry, industrial",,graphics/icons/industry/fuel_production.png,com.fs.starfarer.api.impl.campaign.econ.impl.FuelProduction,이 시설은 성간 문명에 필수적인 우주선의 연료를 생산합니다. 도메인의 기술이 적용되지 않아 연료 생산은 느려지고 생산성이 낮아졌습니다.,1800
+선박 건조를 위한 궤도 시설이 추가되어 결함 발생이 줄어들었습니다.",1700
+fuelprod,연료 생산,90,120,,10,,,"fuelprod, industry, industrial",,graphics/icons/industry/fuel_production.png,com.fs.starfarer.api.impl.campaign.econ.impl.FuelProduction,이 시설은 성간 문명에 필수적인 우주선의 연료를 생산합니다. 도메인의 기술이 적용되지 않아 연료 생산은 느려지고 생산성이 낮아졌습니다.,1800
 #advfuelprod,Advanced Fuel Production,120,60,,5,fuelprod,,fuelprod,,graphics/icons/industry/advanced_fuel_production.png,com.fs.starfarer.api.impl.campaign.econ.impl.FuelProduction,도메인 기술로 만들어진 거대한 시설로 성간 문명에 필수적인 연료를 생산합니다.,1900
 commerce,상업 지구,90,90,,3,,,"industry, urban",,graphics/icons/industry/commerce.png,com.fs.starfarer.api.impl.campaign.econ.impl.TradeCenter,"독립적인 상거래가 번영하기 위한 규제, 보조금, 기반시설의 집합체입니다.",1950
-station_base,궤도 정거장,,,,,,,"station, parent_item, important, structure",station,graphics/icons/industry/station_category.png,com.fs.starfarer.api.impl.campaign.econ.impl.OrbitalStation,"A space station that is capable of supporting friendly fleets near $market and must be reduced before invasions or bombardment can be attempted.
+station_base,궤도 정거장,,,,,,,"station, parent_item, important, structure",station,graphics/icons/industry/station_category.png,com.fs.starfarer.api.impl.campaign.econ.impl.OrbitalStation,"$market 주변의 아군 함대를 지원할 수 있는 무장한 궤도 정거장입니다. 지상에 강습이나 폭격을 가하기 위해서는 정거장을 무력화해야 합니다.
 
-Several variations are available, with differences generally being in tactical approaches rather than overall strength.",2000
+다양한 종류가 존재하며, 대부분 전투시의 위력은 비슷하나 전술적 교리와 접근법이 다릅니다.",2000
 orbitalstation,궤도 정거장 - 초기형,50,90,,3,,battlestation,"station, sub_item, unraidable, structure","{
 radius:55,
 variant:station1_Standard,
-fleetName:Orbital Station,
-}",graphics/icons/industry/orbital_station.png,com.fs.starfarer.api.impl.campaign.econ.impl.OrbitalStation,"A low-tech space station, featuring heavy armor and medium firepower.
+fleetName:궤도 정거장,
+}",graphics/icons/industry/orbital_station.png,com.fs.starfarer.api.impl.campaign.econ.impl.OrbitalStation,"중장갑과 보통의 화력을 지닌 초기형 우주 정거장입니다.
 
-Must be reduced before invasions or bombardment can be attempted.",2010
+무력화되지 않는 한 지상 강습이나 폭격을 시도할 수 없습니다.",2010
 battlestation,전투 정거장 - 초기형,100,120,,4,orbitalstation,starfortress,"station, battlestation, unraidable, structure","{
 radius:65,
 variant:station2_Standard,
-fleetName:Battlestation,
-}",graphics/icons/industry/battlestation.png,com.fs.starfarer.api.impl.campaign.econ.impl.OrbitalStation,"A space station, augmented with a heavy bastion and point-defense citadels.
+fleetName:전투 정거장,
+}",graphics/icons/industry/battlestation.png,com.fs.starfarer.api.impl.campaign.econ.impl.OrbitalStation,"화력 요새와 대공 방호구획으로 보강된 초기형 전투 정거장입니다.
 
-Must be reduced before invasions or bombardment can be attempted.",2020
+무력화되지 않는 한 지상 강습이나 폭격을 시도할 수 없습니다.",2020
 starfortress,항성 요새 - 초기형,200,180,,5,battlestation,,"station, starfortress, unraidable, structure","{
 radius:70,
 variant:station3_Standard,
-fleetName:Star Fortress
-}",graphics/icons/industry/battlestation.png,com.fs.starfarer.api.impl.campaign.econ.impl.OrbitalStation,"An up-armored battlestation, featuring Merlon-class defense drones and an extensive minefield.
+fleetName:항성 요새
+}",graphics/icons/industry/battlestation.png,com.fs.starfarer.api.impl.campaign.econ.impl.OrbitalStation,"장갑을 보강한 초기형 항성 요새입니다. 멀론급 방어 드론과 대규모의 기뢰 지대로 무장하고 있습니다.
 
-Must be reduced before invasions or bombardment can be attempted.",2030
+무력화되지 않는 한 지상 강습이나 폭격을 시도할 수 없습니다.",2030
 orbitalstation_mid,궤도 정거장 - 중기형,50,90,,3,,battlestation_mid,"station, sub_item, unraidable, structure","{
 radius:55,
 variant:station1_midline_Standard,
-fleetName:Orbital Station,
-}",graphics/icons/industry/orbital_station.png,com.fs.starfarer.api.impl.campaign.econ.impl.OrbitalStation,"A midline space station, featuring heavy firepower on one side and rapid axial rotation.
+fleetName:궤도 정거장,
+}",graphics/icons/industry/orbital_station.png,com.fs.starfarer.api.impl.campaign.econ.impl.OrbitalStation,"한 면에 화력을 집중하고 빠르게 회전하는 중기형 궤도 정거장입니다.
 
-Must be reduced before invasions or bombardment can be attempted.",2040
+무력화되지 않는 한 지상 강습이나 폭격을 시도할 수 없습니다.",2040
 battlestation_mid,전투 정거장 - 중기형,100,120,,4,orbitalstation_mid,starfortress_mid,"station, battlestation, unraidable, structure","{
 radius:65,
 variant:station2_midline_Standard,
-fleetName:Battlestation,
-}",graphics/icons/industry/battlestation.png,com.fs.starfarer.api.impl.campaign.econ.impl.OrbitalStation,"A space station, augmented with missile support modules.
+fleetName:전투 정거장,
+}",graphics/icons/industry/battlestation.png,com.fs.starfarer.api.impl.campaign.econ.impl.OrbitalStation,"미사일 지원 모듈로 보강된 중기형 전투 정거장입니다.
 
-Must be reduced before invasions or bombardment can be attempted.",2050
+무력화되지 않는 한 지상 강습이나 폭격을 시도할 수 없습니다.",2050
 starfortress_mid,항성 요새 - 중기형,200,180,,5,battlestation_mid,,"station, starfortress, unraidable, structure","{
 radius:70,
 variant:station3_midline_Standard,
-fleetName:Star Fortress
-}",graphics/icons/industry/battlestation.png,com.fs.starfarer.api.impl.campaign.econ.impl.OrbitalStation,"An up-armored battlestation, featuring Ravelin-class defense drones and an extensive minefield.
+fleetName:항성 요새
+}",graphics/icons/industry/battlestation.png,com.fs.starfarer.api.impl.campaign.econ.impl.OrbitalStation,"장갑을 보강한 중기형 항성 요새입니다. 레블린급 방어 드론과 대규모의 기뢰 지대로 무장하고 있습니다.
 
-Must be reduced before invasions or bombardment can be attempted.",2060
+무력화되지 않는 한 지상 강습이나 폭격을 시도할 수 없습니다.",2060
 orbitalstation_high,궤도 정거장 - 후기형,50,90,,3,,battlestation_high,"station, sub_item, unraidable, structure","{
 radius:55,
 variant:station1_hightech_Standard,
-fleetName:Orbital Station,
-}",graphics/icons/industry/orbital_station.png,com.fs.starfarer.api.impl.campaign.econ.impl.OrbitalStation,"A high-tech space station, featuring heavy rotating shields, a fighter complement, and medium firepower.
+fleetName:궤도 정거장,
+}",graphics/icons/industry/orbital_station.png,com.fs.starfarer.api.impl.campaign.econ.impl.OrbitalStation,"회전하는 강력한 실드 모듈과 함재기, 보통의 화력을 지닌 후기형 궤도 정거장입니다.
 
-Must be reduced before invasions or bombardment can be attempted.",2070
+무력화되지 않는 한 지상 강습이나 폭격을 시도할 수 없습니다.",2070
 battlestation_high,전투 정거장 - 후기형,100,120,,4,orbitalstation_high,starfortress_high,"station, battlestation, unraidable, structure","{
 radius:65,
 variant:station2_hightech_Standard,
-fleetName:Battlestation,
-}",graphics/icons/industry/battlestation.png,com.fs.starfarer.api.impl.campaign.econ.impl.OrbitalStation,"A space station, augmented with a defensive citadel featuring heavy firepower.
+fleetName:전투 정거장,
+}",graphics/icons/industry/battlestation.png,com.fs.starfarer.api.impl.campaign.econ.impl.OrbitalStation,"강력한 화력의 방어 요새로 보강된 후기형 전투 정거장입니다.
 
-Must be reduced before invasions or bombardment can be attempted.",2080
+무력화되지 않는 한 지상 강습이나 폭격을 시도할 수 없습니다.",2080
 starfortress_high,항성 요새 - 후기형,200,180,,5,battlestation_high,,"station, starfortress, unraidable, structure","{
 radius:70,
 variant:station3_hightech_Standard,
-fleetName:Star Fortress
-}",graphics/icons/industry/battlestation.png,com.fs.starfarer.api.impl.campaign.econ.impl.OrbitalStation,"An up-armored battlestation, featuring Gargoyle-class defense drones and long-range targeted mine teleporters.
+fleetName:항성 요새
+}",graphics/icons/industry/battlestation.png,com.fs.starfarer.api.impl.campaign.econ.impl.OrbitalStation,"장갑을 보강한 후기형 항성 요새입니다. 가고일급 방어 드론과 장거리 기뢰 전송기로 무장하고 있습니다.
 
-Must be reduced before invasions or bombardment can be attempted.",2090
-grounddefenses,Ground Defenses,30,60,,2,,heavybatteries,"grounddefenses, unraidable, tactical_bombardment, structure",,graphics/icons/industry/ground_defenses.png,com.fs.starfarer.api.impl.campaign.econ.impl.GroundDefenses,"A dispersed, semi-autonomous network of small, hidden weapon installations which makes the prospect of a direct ground assault and even simple raids extremely costly to the attacker. Only overwhelming orbital bombardment or massively disproportionate active screening can supress these defenses.  ",2200
-heavybatteries,Heavy Batteries,60,90,,3,grounddefenses,,"grounddefenses, unraidable, tactical_bombardment, structure",,graphics/icons/industry/heavy_batteries.png,com.fs.starfarer.api.impl.campaign.econ.impl.GroundDefenses,"Armoured subsurface batteries supplement a dispersed network of small, hidden weapon installations. Ground-based batteries are capable of truly awesome firepower, though it only manifests by making ground operations more difficult, as no starship captain would be foolish enough to get within their firing envelopes.",2300
-patrolhq,지역 순찰대,60,60,,8,,militarybase,"patrol, unraidable, tactical_bombardment, structure",,graphics/icons/industry/patrol_hq.png,com.fs.starfarer.api.impl.campaign.econ.impl.MilitaryBase,"The requisite hangars, maintenance bays, command/control center, barracks, and logistics operations required to project force throughout a star system. Once established, militarized patrols will hunt pirates and protect friendly convoys.",2400
-militarybase,Military Base,90,120,,10,patrolhq,highcommand,"military, unraidable, tactical_bombardment, industry",,graphics/icons/industry/military_base.png,com.fs.starfarer.api.impl.campaign.econ.impl.MilitaryBase,"These facilities enable force projection between star systems. Any such military undertaking is a massive logistical operation requiring coordination of dozens, perhaps hundreds of star ships and thousands of officers, crew, and soldiers.",2500
-highcommand,High Command,30,120,,14,militarybase,,"command, unraidable, tactical_bombardment, industry",,graphics/icons/industry/high_command.png,com.fs.starfarer.api.impl.campaign.econ.impl.MilitaryBase,Transtellar empire is possible only through an exceptional corps of officers and bureaucrats given authority over the resources of entire star systems. An established high command allows military operations to be organized and executed across the Sector.,2600
-lionsguard,Lion's Guard HQ,90,60,,6,,,"military, unraidable, tactical_bombardment, structure",,graphics/icons/industry/lions_guard.png,com.fs.starfarer.api.impl.campaign.econ.impl.LionsGuardHQ,"Headquarters of the feared personal guard of Phillip ""The Lion of Sindria"" Andrada. Boasting superb training and access to the best equipment credits can buy, the fanatical loyalty of the Guard is maintained through a system of perks and incentives that both elevate and isolate the Guard from the Diktat's regular military.",2650
+무력화되지 않는 한 지상 강습이나 폭격을 시도할 수 없습니다.",2090
+grounddefenses,지상 방어,30,60,,2,,heavybatteries,"grounddefenses, unraidable, tactical_bombardment, structure",,graphics/icons/industry/ground_defenses.png,com.fs.starfarer.api.impl.campaign.econ.impl.GroundDefenses,"A dispersed, semi-autonomous network of small, hidden weapon installations which makes the prospect of a direct ground assault and even simple raids extremely costly to the attacker. Only overwhelming orbital bombardment or massively disproportionate active screening can supress these defenses.  ",2200
+heavybatteries,대함 포대,60,90,,3,grounddefenses,,"grounddefenses, unraidable, tactical_bombardment, structure",,graphics/icons/industry/heavy_batteries.png,com.fs.starfarer.api.impl.campaign.econ.impl.GroundDefenses,"Armoured subsurface batteries supplement a dispersed network of small, hidden weapon installations. Ground-based batteries are capable of truly awesome firepower, though it only manifests by making ground operations more difficult, as no starship captain would be foolish enough to get within their firing envelopes.",2300
+patrolhq,초계 지휘소,60,60,,8,,militarybase,"patrol, unraidable, tactical_bombardment, structure",,graphics/icons/industry/patrol_hq.png,com.fs.starfarer.api.impl.campaign.econ.impl.MilitaryBase,"The requisite hangars, maintenance bays, command/control center, barracks, and logistics operations required to project force throughout a star system. Once established, militarized patrols will hunt pirates and protect friendly convoys.",2400
+militarybase,군사 기지,90,120,,10,patrolhq,highcommand,"military, unraidable, tactical_bombardment, industry",,graphics/icons/industry/military_base.png,com.fs.starfarer.api.impl.campaign.econ.impl.MilitaryBase,"These facilities enable force projection between star systems. Any such military undertaking is a massive logistical operation requiring coordination of dozens, perhaps hundreds of star ships and thousands of officers, crew, and soldiers.",2500
+highcommand,중앙 사령부,30,120,,14,militarybase,,"command, unraidable, tactical_bombardment, industry",,graphics/icons/industry/high_command.png,com.fs.starfarer.api.impl.campaign.econ.impl.MilitaryBase,Transtellar empire is possible only through an exceptional corps of officers and bureaucrats given authority over the resources of entire star systems. An established high command allows military operations to be organized and executed across the Sector.,2600
+lionsguard,라이언즈 가드 사령부,90,60,,6,,,"military, unraidable, tactical_bombardment, structure",,graphics/icons/industry/lions_guard.png,com.fs.starfarer.api.impl.campaign.econ.impl.LionsGuardHQ,"Headquarters of the feared personal guard of Phillip ""The Lion of Sindria"" Andrada. Boasting superb training and access to the best equipment credits can buy, the fanatical loyalty of the Guard is maintained through a system of perks and incentives that both elevate and isolate the Guard from the Diktat's regular military.",2650
 planetaryshield,행성 방어장,150,90,,3,,,"grounddefenses, structure",,graphics/icons/industry/planetary_shield.png,com.fs.starfarer.api.impl.campaign.econ.impl.PlanetaryShield,An envelope of charged plasma seeded with exotic virtual particles producing effects which disrupt the combat effectiveness of long-range bombardment and even incursion by small vessels. The planetary shield can be continually charged and controlled by a central source and presents a formidable obstacle to any form of ground assault.,2700
 waystation,보급 기지,20,60,,2,,,"waystation, structure",,graphics/icons/industry/waystation.png,com.fs.starfarer.api.impl.campaign.econ.impl.Waystation,성간 함대가 보급과 유지보수를 받을 수 있는 보급 기지입니다. 식민지의 접근성을 증가시킵니다.,155
-cryosanctum,Cryosanctum,150,90,,5,,,"cryosanctum, structure",,graphics/icons/industry/cryosanctum.png,com.fs.starfarer.api.impl.campaign.econ.impl.Cryosanctum,"An enormous tomb-like vault built to store those who choose to risk cryosleep to pass this time of troubles to wake in what will presumably be a more civilized age. The cryopods themselves are insignificant in size compared to the many-times redundant support infrastructure, massive automated security systems and anti-ship batteries, all housed in a branching subsurface fortress-labyrinth.",3000
+cryosanctum,냉동수면 시설,150,90,,5,,,"cryosanctum, structure",,graphics/icons/industry/cryosanctum.png,com.fs.starfarer.api.impl.campaign.econ.impl.Cryosanctum,"An enormous tomb-like vault built to store those who choose to risk cryosleep to pass this time of troubles to wake in what will presumably be a more civilized age. The cryopods themselves are insignificant in size compared to the many-times redundant support infrastructure, massive automated security systems and anti-ship batteries, all housed in a branching subsurface fortress-labyrinth.",3000
 ,,,,,,,,,,,,,
-cryorevival,Cryorevival Facility,60,60,,5,,,"cryorevival, structure",,graphics/icons/industry/cryorevival.png,com.fs.starfarer.api.impl.campaign.econ.impl.Cryorevival,The necessary facilities for the mass revival and assimilation of the passengers of a Domain-era cryosleeper. Greatly increases population growth.,3200
+cryorevival,냉동수면 재활 시설,60,60,,5,,,"cryorevival, structure",,graphics/icons/industry/cryorevival.png,com.fs.starfarer.api.impl.campaign.econ.impl.Cryorevival,도메인 시기 냉동수면 이주선의 승객들을 대규모로 소생, 재활시켜 사회에 융합될 수 있도록 지원하는 시설들입니다. 인구 성장률을 대폭 증가시킵니다.,3200
