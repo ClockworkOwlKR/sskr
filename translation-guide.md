@@ -15,7 +15,15 @@
 
 
 ==== 용어 통일 ====
+
+@ 게임 메커니즘
+
 * Flux : 플럭스
   - Hard Flux : 하드 플럭스
   - Soft Flux : 소프트 플럭스
 * TODO: 목록 완성
+
+@ 설정
+
+* The Collapse: 대붕괴
+* Gate: 성간 관문
