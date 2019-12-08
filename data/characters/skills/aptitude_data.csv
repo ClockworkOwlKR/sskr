@@ -1,5 +1,5 @@
 id,name,color,description,order,effect_skill_id,sound1,sound2,sound3
-combat,ÀüÅõ,"220,94,41,255",ÁöÈÖÇÏ´Â ÇÔ¼±ÀÇ ÀüÅõ´É·ÂÀ» Á÷Á¢ÀûÀ¸·Î Çâ»ó½ÃÅµ´Ï´Ù.,1,aptitude_combat,combat1,combat2,combat3
-leadership,ÁöÈÖ,"107,175,0,255","ÇÔ´ë ÀüÃ¼ÀÇ ÀüÅõ ´É·ÂÀ» Çâ»ó½ÃÅ°°í, ÇÔÀç±â¸¦ ´õ È¿°úÀûÀ¸·Î ¸¸µì´Ï´Ù.",2,aptitude_leadership,leadership1,leadership2,leadership3
-technology,±â¼ú,"0,121,216,255",ÇÔ´ë ÀüÃ¼ÀÇ ÀüÅõ¿Í ºñÀüÅõ ºĞ¾ßÀÇ ´É·ÂÀ» °ñ°í·ç Çâ»ó½ÃÅµ´Ï´Ù.,3,aptitude_technology,technology1,technology2,technology3
-industry,»ê¾÷,"175,135,0,255",Å½»ç¿Í ÀÎ¾ç ÀÛ¾÷À» ´õ È¿°úÀûÀ¸·Î ÇÕ´Ï´Ù.,4,aptitude_industry,industry1,industry2,industry3
+combat,ì „íˆ¬,"220,94,41,255",ì§€íœ˜í•˜ëŠ” í•¨ì„ ì˜ ì „íˆ¬ëŠ¥ë ¥ì„ ì§ì ‘ì ìœ¼ë¡œ í–¥ìƒì‹œí‚µë‹ˆë‹¤.,1,aptitude_combat,combat1,combat2,combat3
+leadership,ì§€íœ˜,"107,175,0,255","í•¨ëŒ€ ì „ì²´ì˜ ì „íˆ¬ ëŠ¥ë ¥ì„ í–¥ìƒì‹œí‚¤ê³ , í•¨ì¬ê¸°ë¥¼ ë” íš¨ê³¼ì ìœ¼ë¡œ ë§Œë“­ë‹ˆë‹¤.",2,aptitude_leadership,leadership1,leadership2,leadership3
+technology,ê¸°ìˆ ,"0,121,216,255",í•¨ëŒ€ ì „ì²´ì˜ ì „íˆ¬ì™€ ë¹„ì „íˆ¬ ë¶„ì•¼ì˜ ëŠ¥ë ¥ì„ ê³¨ê³ ë£¨ í–¥ìƒì‹œí‚µë‹ˆë‹¤.,3,aptitude_technology,technology1,technology2,technology3
+industry,ì‚°ì—…,"175,135,0,255",íƒì‚¬ì™€ ì¸ì–‘ ì‘ì—…ì„ ë” íš¨ê³¼ì ìœ¼ë¡œ í–‰í•©ë‹ˆë‹¤.,4,aptitude_industry,industry1,industry2,industry3
