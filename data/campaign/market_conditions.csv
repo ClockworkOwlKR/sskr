@@ -1,7 +1,7 @@
 name,id,planetary,decivRemove,script,desc,icon,order
-Urbanized Polity,urbanized_polity,,TRUE,com.fs.starfarer.api.impl.campaign.econ.UrbanizedPolity,"A dense and cosmopolitan center of population, people of all walks of life live, work, and die in the stacked hab-complexes, commercial concourses, and modular workshops.",graphics/icons/markets/urbanized_polity.png,130
-Industrial Polity,industrial_polity,,TRUE,com.fs.starfarer.api.impl.campaign.econ.IndustrialPolity,"A bustling industrial center. The policies of the local government encourage thriving industry, at the expense of all other concerns.",graphics/icons/markets/urbanized_polity.png,130
-Rural Polity,rural_polity,,TRUE,com.fs.starfarer.api.impl.campaign.econ.RuralPolity,"A sparsely populated polity of homesteads and insular townships. In these troubled times, outsiders are generally treated with suspicion.",graphics/icons/markets/rural_polity.png,130
+도시화,urbanized_polity,,TRUE,com.fs.starfarer.api.impl.campaign.econ.UrbanizedPolity,"빽빽한 세계적 인구 중심지입니다. 쌓아올려진 주거 단지, 상업 구역과 구획화된 작업장에서 모든 종류의 인간 군상들이 생활하고 일하다 죽어갑니다.",graphics/icons/markets/urbanized_polity.png,130
+산업화,industrial_polity,,TRUE,com.fs.starfarer.api.impl.campaign.econ.IndustrialPolity,"번화한 산업 중심지입니다. 지역 정부는 산업의 활성화를 장려하는 정책을 펼치지만, 때로는 그 때문에 다른 문제점들이 생겨나기도 합니다.",graphics/icons/markets/urbanized_polity.png,130
+전원 지방,rural_polity,,TRUE,com.fs.starfarer.api.impl.campaign.econ.RuralPolity,"A sparsely populated polity of homesteads and insular townships. In these troubled times, outsiders are generally treated with suspicion.",graphics/icons/markets/rural_polity.png,130
 대규모 난민,large_refugee_population,,TRUE,com.fs.starfarer.api.impl.campaign.econ.LargeRefugeePopulation,"Desperate refugees fleeing some disaster have ended up here. Refugees live at the bottom of society with little opportunity for betterment, straining domestic infrastructure living in tense semi-legal status. Reduced overall production. More prospective crew members are likely to be found among those trying to escape the squalid living conditions.",graphics/icons/markets/refugee_population.png,140
 볼턴 랍스터 양식장,volturnian_lobster_pens,TRUE,,com.fs.starfarer.api.impl.campaign.econ.ResourceDepositsCondition,A mix of several Old Earth species and a little imagination produced this creature which grows wild in the crushing depths of Volturn's sea-floor. The flavor is said to be exceptional.,graphics/icons/markets/lobster_pens.png,137
 악습 수요,vice_demand,,TRUE,com.fs.starfarer.api.impl.campaign.econ.ViceDemand,The demand for vice goods is unusually high here.,graphics/icons/markets/vice_demand.png,145
@@ -32,7 +32,7 @@ Barren-marginal World,barren_marginal,TRUE,,com.fs.starfarer.api.impl.campaign.e
 툰드라 행성,tundra,TRUE,,com.fs.starfarer.api.impl.campaign.econ.WorldTundra,"Terraforming has brought terran life to $market but the world remains as cold as the deepest of Earth's ice ages. Though millions of square kilometers are covered in glacier, there are also taiga provinces and rolling steppe where warmer conditions prevail.",graphics/icons/markets/tundra_terran_wide.png,10
 저온 화산 행성,cryovolcanic,TRUE,,com.fs.starfarer.api.impl.campaign.econ.WorldUninhabitable,"A world frozen beyond deepest chill, methane snow falls on mountains of water-ice and volcanos erupt with ammonia. Stellar radiation breaks down the volatiles to form an atmosphere of light gases such as nitrogen and oxygen while hydrogen is whisked into space. ",graphics/icons/markets/cryo_world_wide.png,10
 ,,,,,,,
-Dissident Population,dissident,,TRUE,com.fs.starfarer.api.impl.campaign.econ.Dissident,"$market is a dumping-ground for dissidents, rebels, free-thinkers, artists, and other troublemakers. Increases demand for weapons and marines to police the rabble. Increases availability of crew due to emigration.",graphics/icons/markets/dissidents.png,139
+불만 ,dissident,,TRUE,com.fs.starfarer.api.impl.campaign.econ.Dissident,"$market is a dumping-ground for dissidents, rebels, free-thinkers, artists, and other troublemakers. Increases demand for weapons and marines to police the rabble. Increases availability of crew due to emigration.",graphics/icons/markets/dissidents.png,139
 Headquarters,headquarters,,TRUE,com.fs.starfarer.api.impl.campaign.econ.Headquarters,"$market is a center of military command and logistical operation for the ruling polity. Increases market stability.
 
 Increases the quality and number of officers in $market's fleets.",graphics/icons/markets/headquarters.png,360
@@ -66,7 +66,7 @@ $commoditySummary",graphics/icons/markets/trade_disruption.png,1100
 
 - Stability reduced by $smugglingPenalty",graphics/icons/markets/smuggling.png,1000
 행성계 내 현상금,event_bounty,,TRUE,com.fs.starfarer.api.impl.campaign.econ.SystemBounty,,graphics/icons/markets/bounty.png,1000
-Rogue AI Core,rogue_ai_core,,TRUE,com.fs.starfarer.api.impl.campaign.econ.RogueAICore,"There is a rogue AI core operating on or near $market. Its long-term plans and ambitions, beyond its own survival, are unknown.
+인공지능 위협,rogue_ai_core,,TRUE,com.fs.starfarer.api.impl.campaign.econ.RogueAICore,"$market 또는 그 인근에서 활동하는 통제 불능의 AI 코어가 있습니다. 그것이 가지고 있을 장기적 계획과 목표는, 스스로의 생존을 제외하면, 알 수 없습니다.
 
 At a minimum, the need to be on guard against its possible actions makes day-to-day operations less efficient and creates fertile ground for alarming rumours.",graphics/icons/markets/rogue_ai.png,1200
 AI Core Admin (hidden),ai_core_admin,,TRUE,com.fs.starfarer.api.impl.campaign.econ.AICoreAdmin,Hidden condition to track when the core becomes un-removable. Does not need an icon.,graphics/icons/markets/rogue_ai.png,1000
