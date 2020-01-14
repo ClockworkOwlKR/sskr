@@ -19,7 +19,7 @@ name,id,demand class,base price,export value,price variability,utility,origin,ta
 마약,drugs,drugs,200,1500,3,1,,,1000,1,graphics/icons/cargo/recdrugs.png,ui_cargo_drugs,ui_cargo_drugs_drop,3,2.5,200,0.75,,
 군용 무기,hand_weapons,hand_weapons,500,500,3,1,,military,1000,1,graphics/icons/cargo/heavyweapons.png,ui_cargo_handweapons,ui_cargo_handweapons_drop,2,2.6,100,1,,
 사치품,luxury_goods,luxury_goods,100,500,3,1,,luxury,1000,1,graphics/icons/cargo/luxurygoods.png,ui_cargo_luxury,ui_cargo_luxury_drop,1,2.7,200,1,,
-Volturnian 랍스터,lobster,luxury_goods,,,,1,volturn,"exotic, luxury",1000,1,graphics/icons/cargo/lobster.png,ui_cargo_luxury,ui_cargo_luxury_drop,1.1,2.8,200,1,,
+볼턴 랍스터,lobster,luxury_goods,,,,1,volturn,"exotic, luxury",1000,1,graphics/icons/cargo/lobster.png,ui_cargo_luxury,ui_cargo_luxury_drop,1.1,2.8,200,1,,
 ,,,,,,,,,,,,,,,,,,,
 함선 선체 & 무기,ships,ships,100,300,3,1,,meta,1000,1,graphics/ships/hound/hound_base.png,,,10,4,200,1,,
 ,,,,,,,,,,,,,,,,,,,
