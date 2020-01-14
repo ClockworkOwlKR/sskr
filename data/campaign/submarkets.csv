@@ -1,23 +1,20 @@
 id,name,faction,desc,script,icon,order
-open_market,"Open
-Market",,"The open market. Only legal goods may be traded here, and transactions are subject to tariffs. More goods are available when stability is high.
+open_market,"공개 시장",,"공개 시장입니다. 합법적인 물품만 거래할 수 있으며, 관세가 부과됩니다. 안정성이 높으면 더 많은 물품을 구매할 수 있습니다.
 
-Selling enough of a commodity will temporarily resolve a shortage.",com.fs.starfarer.api.impl.campaign.submarkets.OpenMarketPlugin,,0
-black_market,"Black
-Market",pirates,"The black market. Anything and everything can be bought or sold, and there are no tariffs. More goods are available when stability is low.
+충분한 수량의 상품을 판매하면 공급난이 일시적으로 해소될 수 있습니다.",com.fs.starfarer.api.impl.campaign.submarkets.OpenMarketPlugin,,0
+black_market,"암시장",pirates,"암시장입니다. 모든 물품을 거래할 수 있으며, 관세가 부과되지 않습니다. 안정성이 낮으면 더 많은 물품들을 구매할 수 있습니다.
 
-Selling a commodity will not resolve a shortage.
+이 곳에서 이뤄지는 거래는 공급난을 해소할 수 없습니다.
 
-Black market transactions may catch the eye of authorities, resulting in cargo scans and reduced faction standing, unless the trades are carried out with the transponder turned off.
+암시장 거래는 당국의 주의를 끌어 화물 수색 또는 관계 악화 등의 결과를 가져올 수 있습니다. 트랜스폰더를 끄고 거래할 경우 우회할 수 있습니다.
 
-Engaging in legitimate trade as a ""cover"" also reduces the probability of attracting the attention of authorities.",com.fs.starfarer.api.impl.campaign.submarkets.BlackMarketPlugin,graphics/factions/black_market.png,999
-storage,Storage,player,Storage space for ships and cargo.,com.fs.starfarer.api.impl.campaign.submarkets.StoragePlugin,graphics/factions/storage.png,1000
-generic_military,,,"Trade with $theFaction military base.
+""위장""으로서 합법적인 거래를 병행하면 당국의 주의를 끌 확률을 낮춥니다.",com.fs.starfarer.api.impl.campaign.submarkets.BlackMarketPlugin,graphics/factions/black_market.png,999
+storage,보관,player,함선과 화물을 보관할 수 있습니다.,com.fs.starfarer.api.impl.campaign.submarkets.StoragePlugin,graphics/factions/storage.png,1000
+generic_military,,,"$theFaction 군사 기지와 거래합니다.
 
-Weapons and other military hardware can be bought and sold here even if they're illegal on the open market. A commission and better standing with $theFaction results in higher-grade hardware being available.
+무기와 기타 군용 장비는 공개 시장에서 불법이더라도 이 곳에서 거래할 수 있습니다. $theFaction의 장교로 임관했거나 관계가 좋다면 더 고급의 장비를 구매할 수 있습니다.
 
-Will buy locally illegal goods as part of a no-questions-asked buyback program.
+익명 회수 프로그램의 일환으로, 불법적인 상품을 판매할 수 있습니다.
 
-Selling enough of a commodity will temporarily resolve a shortage.",com.fs.starfarer.api.impl.campaign.submarkets.MilitarySubmarketPlugin,,100
-local_resources,"Resource
-Stockpiles",,,com.fs.starfarer.api.impl.campaign.submarkets.LocalResourcesSubmarketPlugin,,200
+충분한 수량의 상품을 판매하면 공급난이 일시적으로 해소될 수 있습니다.",com.fs.starfarer.api.impl.campaign.submarkets.MilitarySubmarketPlugin,,100
+local_resources,"자원 비축",,,com.fs.starfarer.api.impl.campaign.submarkets.LocalResourcesSubmarketPlugin,,200
