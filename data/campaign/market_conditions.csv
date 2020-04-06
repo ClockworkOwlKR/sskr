@@ -46,7 +46,7 @@ Hydroponics Complex,hydroponics_complex,,TRUE,com.fs.starfarer.api.impl.campaign
 인구,population_6,,TRUE,com.fs.starfarer.api.impl.campaign.econ.Population,$market의 인구는 수백만명입니다.,graphics/icons/markets/population06.png,20
 인구,population_7,,TRUE,com.fs.starfarer.api.impl.campaign.econ.Population,$market은(는) 수천만명이 거주하는 세계입니다.,graphics/icons/markets/population07.png,20
 인구,population_8,,TRUE,com.fs.starfarer.api.impl.campaign.econ.Population,$market은(는) 섹터에서 몇 안되는 수억명이 사는 곳입니다.,graphics/icons/markets/population08.png,20
-인구,population_9,,TRUE,com.fs.starfarer.api.impl.campaign.econ.Population,위험한 은하계에서 인류에게 귀중한 피난처가 되는 $market은(는) 수십억의 영혼들의 집입니다.,graphics/icons/markets/population09.png,20
+인구,population_9,,TRUE,com.fs.starfarer.api.impl.campaign.econ.Population,위험한 은하계에서 인류에게 귀중한 피난처가 되는 $market은(는) 수십억 영혼들의 집입니다.,graphics/icons/markets/population09.png,20
 인구,population_10,,TRUE,com.fs.starfarer.api.impl.campaign.econ.Population,"$market은(는) 섹터의 주된 인구 중심지며, 수백억명이 집으로 부를만큼 옛 지구에 견줄만합니다.",graphics/icons/markets/population10.png,20
 ,,,,,,,
 ,,,,,,,
