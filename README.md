@@ -19,3 +19,5 @@ ClockworkOwl
 
 3sooham
 * data/campaign/market_conditions.csv
+* data/campaign/repoorts.csv
+
