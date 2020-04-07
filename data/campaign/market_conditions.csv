@@ -4,38 +4,36 @@ name,id,planetary,decivRemove,script,desc,icon,order
 전원 지방,rural_polity,,TRUE,com.fs.starfarer.api.impl.campaign.econ.RuralPolity,"A sparsely populated polity of homesteads and insular townships. In these troubled times, outsiders are generally treated with suspicion.",graphics/icons/markets/rural_polity.png,130
 대규모 난민,large_refugee_population,,TRUE,com.fs.starfarer.api.impl.campaign.econ.LargeRefugeePopulation,"Desperate refugees fleeing some disaster have ended up here. Refugees live at the bottom of society with little opportunity for betterment, straining domestic infrastructure living in tense semi-legal status. Reduced overall production. More prospective crew members are likely to be found among those trying to escape the squalid living conditions.",graphics/icons/markets/refugee_population.png,140
 볼턴 랍스터 양식장,volturnian_lobster_pens,TRUE,,com.fs.starfarer.api.impl.campaign.econ.ResourceDepositsCondition,A mix of several Old Earth species and a little imagination produced this creature which grows wild in the crushing depths of Volturn's sea-floor. The flavor is said to be exceptional.,graphics/icons/markets/lobster_pens.png,137
-악습 수요,vice_demand,,TRUE,com.fs.starfarer.api.impl.campaign.econ.ViceDemand,The demand for vice goods is unusually high here.,graphics/icons/markets/vice_demand.png,145
-조직 범죄,organized_crime,,TRUE,com.fs.starfarer.api.impl.campaign.econ.OrganizedCrime,Criminal activity produces drugs and harvested organs. Increases demand for hand weapons (by both various crime bosses and local citizenry) and marines (by the local authorities).,graphics/icons/markets/organized_crime.png,148
-변경 지역,frontier,,TRUE,com.fs.starfarer.api.impl.campaign.econ.Frontier,"Far from the cosmopolitan centers of population, mere survival, self-reliance, and only-the-necessities are the rules of the frontier. Increased demand for weapons and supplies, reduced demand for luxury goods.",graphics/icons/markets/frontier.png,130
-선박 해체 중심지,shipbreaking_center,,TRUE,com.fs.starfarer.api.impl.campaign.econ.ShipbreakingCenter,"A major center of shipbreaking in this region of the Sector, hulks are consigned to scrapping here by the navies of major factions and many other clients from among the Sector core worlds.",graphics/icons/markets/shipbreaking.png,360
-무역 중심지,trade_center,,TRUE,com.fs.starfarer.api.impl.campaign.econ.TradeCenter,"A major center of trade, merchant vessels from across the Sector dock here expecting to find a buyer for their goods- and to find something to buy in turn for a nice profit.",graphics/icons/markets/trade_center.png,280
-문명 붕괴,decivilized,,,com.fs.starfarer.api.impl.campaign.econ.Decivilized,"There is no stable ruling polity here. Civilization is collapsed and current population is effectively unknown, though groups of survivors, bandits, and looters can be detected.",graphics/icons/markets/decivilized.png,130
+악습 수요,vice_demand,,TRUE,com.fs.starfarer.api.impl.campaign.econ.ViceDemand,여기는 불법인 상품에 대한 수요가 매우 높습니다.,graphics/icons/markets/vice_demand.png,145
+조직 범죄,organized_crime,,TRUE,com.fs.starfarer.api.impl.campaign.econ.OrganizedCrime,범죄자들이 약물과 인공 장기를 생산하고 있습니다. 군용무기(갱단과 현지 주민들로 부터)와 해병(현지 행정당국으로 부터)에 대한 수요가 높습니다.,graphics/icons/markets/organized_crime.png,148
+변경 지역,frontier,,TRUE,com.fs.starfarer.api.impl.campaign.econ.Frontier,"인구가 집중된 지역에서 멀리 떨어져 있는 변경지역에서는 단순히 생존, 자립이 규칙입니다. 무기, 보급품에 대한 수요가 높고 사치품에 대한 수요는 낮습니다.",graphics/icons/markets/frontier.png,130
+선박 해체 중심지,shipbreaking_center,,TRUE,com.fs.starfarer.api.impl.campaign.econ.ShipbreakingCenter,선박 해체 중심지인 이곳에서는 코어 섹터의 주요 세력들의 해군들과 고객들의 선체들이 스크랩되고 있습니다. ,graphics/icons/markets/shipbreaking.png,360
+무역 중심지,trade_center,,TRUE,com.fs.starfarer.api.impl.campaign.econ.TradeCenter,무역 중심지인 이곳은 섹터 전역에서 상선들이 고객들은 위한 물건을 구하고 수익을 낼 물건들을 구입하기 위해서 옵니다.,graphics/icons/markets/trade_center.png,280
+문명 붕괴,decivilized,,,com.fs.starfarer.api.impl.campaign.econ.Decivilized,"이 행성을 통치하는 정치 세력이 없습니다. 문명이 붕괴했으며 현재 인구는 알 수 없으나 몇몇 생존자 그룹과, 약탈자들만 있는 것으로 보입니다.",graphics/icons/markets/decivilized.png,130
 문명 재건,decivilized_subpop,,TRUE,com.fs.starfarer.api.impl.campaign.econ.DecivilizedSubpop,"Civilization has been brough back to parts of $market, often at the point of a gauss rifle. However, an effectively unknown population of survivors, bandits, and looters still remains on the fringes.",graphics/icons/markets/decivilized.png,130
-버려진 정류장,abandoned_station,,TRUE,com.fs.starfarer.api.impl.campaign.econ.AbandonedStation,This station is abandoned.,graphics/icons/markets/abandoned.png,130
-가내 수공업,cottage_industry,,TRUE,com.fs.starfarer.api.impl.campaign.econ.CottageIndustry,"$market has a substantial base of low-technology, labour-intensive light industry. Increases demand for simple organic fuels and materials, provides an inefficient albeit charmingly hand-crafted supply of domestic goods.",graphics/icons/markets/cottage_industry.png,230
-Outpost,outpost,,TRUE,com.fs.starfarer.api.impl.campaign.econ.Outpost,"$market is run much like a garrison or a large spaceship, with a rigid official command structure. This improves stability, but does require some personnel to see to internal security matters.",graphics/icons/markets/outpost.png,130
-러드교도 다수,luddic_majority,,TRUE,com.fs.starfarer.api.impl.campaign.econ.LuddicMajority,"Stability is improved if $market is controlled by a Luddic faction, otherwise it is reduced. The ascetic ethos of Luddic theology reduces demand for luxury goods.",graphics/icons/markets/luddic_majority.png,142
-기뢰 지대,stealth_minefields,,TRUE,com.fs.starfarer.api.impl.campaign.econ.StealthMinefields,A network of hidden mines provides $market security from meddlesome outsiders. Improves stability.,graphics/icons/markets/stealth_mines.png,510
-지역 수도,regional_capital,,TRUE,com.fs.starfarer.api.impl.campaign.econ.RegionalCapital,"A major center of administration, security, and logistics. Improves stability.",graphics/icons/markets/capital.png,500
-자유 항구,free_market,,TRUE,com.fs.starfarer.api.impl.campaign.econ.FreeMarket,"The local port authority imposes almost no regulation on what cargo is traded. Immigration controls are likewise relaxed, resulting in a greater in-flow of people, albeit sometimes of a more questionable character. This may cause other factions to view this colony with distrust.",graphics/icons/markets/free_port.png,141
-이주 금지,closed_immigration,,TRUE,com.fs.starfarer.api.impl.campaign.econ.ClosedImmigration,"Officially, immigration to $market is not allowed. In practice, this results in slowing overall immigration significantly, and creating room for certain kinds of criminals to operate.",graphics/icons/markets/vice_demand.png,142
+버려진 정류장,abandoned_station,,TRUE,com.fs.starfarer.api.impl.campaign.econ.AbandonedStation,이 정거장은 버려졌습니다.,graphics/icons/markets/abandoned.png,130
+가내 수공업,cottage_industry,,TRUE,com.fs.starfarer.api.impl.campaign.econ.CottageIndustry,"$market은 기술이 필요없는 노동집약적인 경공업이 발전해 있습니다. 높은 연로, 원재료로 비효율적이지만 매력적인 수공예품을 생산하고 있습니다.",graphics/icons/markets/cottage_industry.png,230
+전초 기지,outpost,,TRUE,com.fs.starfarer.api.impl.campaign.econ.Outpost,$market은(는) 군대의 주둔지나 거대한 우주선같이 확고한 명령 체계로 운영됩니다. 이로써 안정도가 증가하지만 내부 보안 문제를 해결하기 위해서 전용 인력이 필요합니다.,graphics/icons/markets/outpost.png,130
+러드교도 다수,luddic_majority,,TRUE,com.fs.starfarer.api.impl.campaign.econ.LuddicMajority,"$market이 러드 교회에 의해서 통치되면 안정도가 증가하고, 그렇지 않으면 감소합니다. 러드교의 금욕적인 기풍이 사치품에 대한 수요를 낮춥니다.",graphics/icons/markets/luddic_majority.png,142
+기뢰 지대,stealth_minefields,,TRUE,com.fs.starfarer.api.impl.campaign.econ.StealthMinefields,기뢰 지대가 외부 세력으로부터 $market을 지켜줍니다. 안정도가 증가합니다.,graphics/icons/markets/stealth_mines.png,510
+지역 수도,regional_capital,,TRUE,com.fs.starfarer.api.impl.campaign.econ.RegionalCapital,"행정, 안보, 물류의 중심지입니다. 안정도가 증가합니다.",graphics/icons/markets/capital.png,500
+자유 항구,free_market,,TRUE,com.fs.starfarer.api.impl.campaign.econ.FreeMarket,현지 행정당국이 어떤 물건이 수출입 되는지에 대해서 일체의 간섭을 하지 않습니다. 이민에 대한 통제도 거의 없어서 많은 사람들이 유입됩니다(그 중에는 수상한 사람도 있습니다.). 이러한 조치들은 다른 팩션들이 이 식민지를 믿을 수 없게 만듭니다.,graphics/icons/markets/free_port.png,141
+이주 금지,closed_immigration,,TRUE,com.fs.starfarer.api.impl.campaign.econ.ClosedImmigration,공식적으로 $market으로의 이민은 허용되지 않습니다.  이주 금지로 인해 이 행성으로의 이민은 거의 없으며 특정 범죄에 대한 수요를 만들어 내고 있습니다.,graphics/icons/markets/vice_demand.png,142
 ,,,,,,,
-거주 불가,uninhabitable,TRUE,,com.fs.starfarer.api.impl.campaign.econ.WorldUninhabitable,"A barren planet, the surface of $market can not support organic life as we know it, and farming is impossible outside of sealed artificial ecosystems.",graphics/icons/markets/uninhabitable_wide.png,10
+거주 불가,uninhabitable,TRUE,,com.fs.starfarer.api.impl.campaign.econ.WorldUninhabitable,황량한 행성으로 $market의 지표는 우리가 아는 유기물이 생존하지 못하며 지붕이 있는 인공적인 생태계 밖에서는 농사가 불가능합니다.,graphics/icons/markets/uninhabitable_wide.png,10
 얼음 행성,ice,TRUE,,com.fs.starfarer.api.impl.campaign.econ.WorldIce,"$market's average temperature is far below the freezing point of water and some common terran atmospheric gases fall as snow. The drifts and glaciers of light, volatile elements may be harvested.",graphics/icons/markets/ice_world_wide.png,10
-사막 행성,desert,TRUE,,com.fs.starfarer.api.impl.campaign.econ.WorldDesert,$market: desert planet. A xerophile biosphere maintains an atmosphere breathable with only a light mask. Farming is nearly impossible.,graphics/icons/markets/desert_world_wide.png,10
-건조 행성,arid,TRUE,,com.fs.starfarer.api.impl.campaign.econ.WorldArid,"$market is covered by vast, dry plains and wastes. Water is uncommon and large-scale farming is difficult.",graphics/icons/markets/arid_world_wide.png,10
-바다 행성,water,TRUE,,com.fs.starfarer.api.impl.campaign.econ.WorldWater,The climate of $market is hospitable but farming is limited largely to aquaculture and highly specialized infrastructure is required for any development of habitats and industry.,graphics/icons/markets/water_world_wide.png,10
-정글 행성,jungle,TRUE,,com.fs.starfarer.api.impl.campaign.econ.WorldJungle,"$market is a wet, warm jungle world covered in riotous vegetation and exotic lifeforms, making farming and maintaining permanent infrastructure difficult.",graphics/icons/markets/jungle_world_wide.png,10
-지구형 행성,terran,TRUE,,com.fs.starfarer.api.impl.campaign.econ.WorldTerran,"$market is as close to Old Earth's condition as can be found in the Sector, providing ideal conditions for farming and settlement.",graphics/icons/markets/terran_world_wide.png,10
+사막 행성,desert,TRUE,,com.fs.starfarer.api.impl.campaign.econ.WorldDesert,$market: 사막 행성입니다. 사막 생태계가 가벼운 마스크 착용만으로 호흡할 수 있는 대기를 만들어 주고 있습니다. 농사는 거의 불가능합니다.,graphics/icons/markets/desert_world_wide.png,10
+건조 행성,arid,TRUE,,com.fs.starfarer.api.impl.campaign.econ.WorldArid,$market은 넓은 건조한 평원과 불모지로 가득차 있습니다. 물은 희귀하며 대규모로 농사를 하기는 어렵습니다.,graphics/icons/markets/arid_world_wide.png,10
+바다 행성,water,TRUE,,com.fs.starfarer.api.impl.campaign.econ.WorldWater,$market의 기후는 온화하지만 농사는 수경재배 밖에 하지 못합니다. 또한 거주지와 산업을 발전시키는데 특수한 인프라가 필요합니다. ,graphics/icons/markets/water_world_wide.png,10
+정글 행성,jungle,TRUE,,com.fs.starfarer.api.impl.campaign.econ.WorldJungle,$market은 이색적인 생명체와 뺵뺵하게 우거진 식물들로 가득한 습하고 따뜻한 정글 행성으로 농사와 인프라를 구축하기가 어렵습니다.,graphics/icons/markets/jungle_world_wide.png,10
+지구형 행성,terran,TRUE,,com.fs.starfarer.api.impl.campaign.econ.WorldTerran,$market은 옛 지구의 환경과 거의 비슷하며 거주와 농업에 최적의 조건을 갖추고 있습니다.,graphics/icons/markets/terran_world_wide.png,10
 Barren-marginal World,barren_marginal,TRUE,,com.fs.starfarer.api.impl.campaign.econ.WorldBarrenMarginal,"Inhospitable and unforgiving, outside conditions on $market are barely survivable to a human with an air mask and protective equipment, though certain engineered terraforming lichens find it tolerable enough.",graphics/icons/markets/barren_desert_wide.png,10
 황혼 행성,twilight,TRUE,,com.fs.starfarer.api.impl.campaign.econ.WorldTwilight,"Tidally locked to its primary, or near enough, $market is a terraformed world with days the length of seasons. Day/night temperature variation is accordingly harsh even to engineered terran life. Islands of 'civilized' mild biomes are maintained through judicious use of solar shades and mirrors. ",graphics/icons/markets/twilight_terran_world.png,10
 툰드라 행성,tundra,TRUE,,com.fs.starfarer.api.impl.campaign.econ.WorldTundra,"Terraforming has brought terran life to $market but the world remains as cold as the deepest of Earth's ice ages. Though millions of square kilometers are covered in glacier, there are also taiga provinces and rolling steppe where warmer conditions prevail.",graphics/icons/markets/tundra_terran_wide.png,10
 저온 화산 행성,cryovolcanic,TRUE,,com.fs.starfarer.api.impl.campaign.econ.WorldUninhabitable,"A world frozen beyond deepest chill, methane snow falls on mountains of water-ice and volcanos erupt with ammonia. Stellar radiation breaks down the volatiles to form an atmosphere of light gases such as nitrogen and oxygen while hydrogen is whisked into space. ",graphics/icons/markets/cryo_world_wide.png,10
 ,,,,,,,
 불만 ,dissident,,TRUE,com.fs.starfarer.api.impl.campaign.econ.Dissident,"$market is a dumping-ground for dissidents, rebels, free-thinkers, artists, and other troublemakers. Increases demand for weapons and marines to police the rabble. Increases availability of crew due to emigration.",graphics/icons/markets/dissidents.png,139
-Headquarters,headquarters,,TRUE,com.fs.starfarer.api.impl.campaign.econ.Headquarters,"$market is a center of military command and logistical operation for the ruling polity. Increases market stability.
-
-Increases the quality and number of officers in $market's fleets.",graphics/icons/markets/headquarters.png,360
+사령부,headquarters,,TRUE,com.fs.starfarer.api.impl.campaign.econ.Headquarters,$market은 군 명령체계와 보급선의 중추입니다.  안정도가 증가합니다.,graphics/icons/markets/headquarters.png,360
 수경 재배 단지,hydroponics_complex,,TRUE,com.fs.starfarer.api.impl.campaign.econ.Hydroponics,"Sealed-biosphere agricultural production facilities which allow farming in orbit or on the surface of inhospitable worlds. Requires crew to operate, organic growth medium, and heavy machinery for upkeep.",graphics/icons/markets/hydroponics.png,120
 ,,,,,,,
 인구,population_1,,TRUE,com.fs.starfarer.api.impl.campaign.econ.Population,수십명이 이곳에 거주하고 있습니다.,graphics/icons/markets/population01.png,20
@@ -47,20 +45,20 @@ Increases the quality and number of officers in $market's fleets.",graphics/icon
 인구,population_7,,TRUE,com.fs.starfarer.api.impl.campaign.econ.Population,$market은(는) 수천만명이 거주하는 행성입니다.,graphics/icons/markets/population07.png,20
 인구,population_8,,TRUE,com.fs.starfarer.api.impl.campaign.econ.Population,$market처럼 수억명의 인구를 자랑하는 행성은 섹터에 몇 되지 않습니다.,graphics/icons/markets/population08.png,20
 인구,population_9,,TRUE,com.fs.starfarer.api.impl.campaign.econ.Population,위험한 은하계에서 인류에게 귀중한 피난처가 되는 $market은(는) 수십억의 영혼들의 집입니다.,graphics/icons/markets/population09.png,20
-인구,population_10,,TRUE,com.fs.starfarer.api.impl.campaign.econ.Population,"섹터의 주요 인구 중심지인 $market에는 수백억명이 거주합니다. 옛 지구에 견줄만 한 행성입니다.",graphics/icons/markets/population10.png,20
+인구,population_10,,TRUE,com.fs.starfarer.api.impl.campaign.econ.Population,섹터의 주요 인구 중심지인 $market에는 수백억명이 거주합니다. 옛 지구에 견줄만 한 행성입니다.,graphics/icons/markets/population10.png,20
 ,,,,,,,
 ,,,,,,,
 ,,,,,,,
 # event-related market conditions,,,,,,,
-식량난,event_food_shortage,,TRUE,com.fs.starfarer.api.impl.campaign.econ.FoodShortage,"There's a temporary lack of available food on $market.
-- Stability reduced by $stabilityPenalty
-- Approximately $neededFood units of food needed to end shortage
-- Food prices increased due to lowered food supply
-- Increased reputation and experience from selling food",graphics/icons/markets/food_shortage.png,1000
+식량난,event_food_shortage,,TRUE,com.fs.starfarer.api.impl.campaign.econ.FoodShortage,"$market은(는) 현재 일시적인 식량 부족을 겪고 있습니다.
+- $stabilityPenalty 만큼 안정도 감소
+- $needed 식량으로 식량난을 종식할 수 있음.
+- 식량 공급 부족으로 식량 가격이 상승함
+- 식량 판매로 평판과 경험치가 추가로 상승함",graphics/icons/markets/food_shortage.png,1000
 Recent Unrest,recent_unrest,,TRUE,com.fs.starfarer.api.impl.campaign.econ.RecentUnrest,$market has recently experienced tumultous events with a lingering effect on stability.,graphics/icons/markets/recent_unrest.png,2000
-Trade Disruption,event_trade_disruption,,TRUE,com.fs.starfarer.api.impl.campaign.econ.TradeDisruption,"Trade fleets going to or from $market are taking significant losses. Piracy or war are most likely to blame.
+Trade Disruption,event_trade_disruption,,TRUE,com.fs.starfarer.api.impl.campaign.econ.TradeDisruption,"$market으로 향하는 무역 함대가 심각한 피해를 받았습니다. 아마 해적이나 전쟁으로 인한 피해일 것입니다. 
 
-The following commodities are affected:
+다음과 같은 상품들이 영향 받음:
 $commoditySummary",graphics/icons/markets/trade_disruption.png,1100
 밀수,event_smuggling,,TRUE,com.fs.starfarer.api.impl.campaign.econ.Smuggling,"$market is experiencing a high volume of smuggling activity.
 
@@ -120,15 +118,15 @@ Vast Ruins,ruins_vast,TRUE,,com.fs.starfarer.api.impl.campaign.econ.BaseHazardCo
 ,,,,,,,
 적대적 생물권,inimical_biosphere,TRUE,,com.fs.starfarer.api.impl.campaign.econ.LCAttractorLow,"The biosphere of $market is deadly to unprotected human beings. While the conditions are fascinating to biological scientists, surface technicians are hampered by strict quarantine protocols when carrying out normal tasks.",graphics/icons/markets/inimical_biosphere.png,30
 ,,,,,,,
-액체 ,water_surface,TRUE,,com.fs.starfarer.api.impl.campaign.econ.ResourceDepositsCondition,"This is an ocean world with no substantial solid surface to land, walk, or build upon. Operations are complicated by the need for specialized training and equipment.",graphics/icons/markets/water_covered.png,31
+액체 ,바다 행성,TRUE,,com.fs.starfarer.api.impl.campaign.econ.ResourceDepositsCondition,이 행성은 착륙하거나 걷거나 건물을 지을 수 있는 단단한 표면이 없는 바다 행성입니다. 이 행성에서의 작업은 특수한 훈련과 장비가 필요하기에 난이도가 높습니다.,graphics/icons/markets/water_covered.png,31
 ,,,,,,,
-빛이 적음,poor_light,TRUE,,com.fs.starfarer.api.impl.campaign.econ.BaseHazardCondition,The light of $market's primary only provides feeble illumination and energy to this world.,graphics/icons/markets/poor_light.png,32
-암흑,dark,TRUE,,com.fs.starfarer.api.impl.campaign.econ.BaseHazardCondition,"The surface of $market is dark and full of shadow, receiving effectively zero illumination from its primary.",graphics/icons/markets/darkness.png,32
+빛이 적음,어두움,TRUE,,com.fs.starfarer.api.impl.campaign.econ.BaseHazardCondition,The light of $market's primary only provides feeble illumination and energy to this world.,graphics/icons/markets/poor_light.png,32
+암흑,암흑,TRUE,,com.fs.starfarer.api.impl.campaign.econ.BaseHazardCondition,"The surface of $market is dark and full of shadow, receiving effectively zero illumination from its primary.",graphics/icons/markets/darkness.png,32
 ,,,,,,,
 운석 충돌,meteor_impacts,TRUE,,com.fs.starfarer.api.impl.campaign.econ.BaseHazardCondition,"This world is bombarded at an appalling rate by regular meteor-showers. Any human inhabitant, however temporary, must keep a wary eye skyward. Any permanent installations would be best buried deep and well fortified.",graphics/icons/markets/meteor_impacts.png,33
 ,,,,,,,
 ,,,,,,,
-공해,pollution,,,com.fs.starfarer.api.impl.campaign.econ.Pollution,"Human industry has left this world filled with dioxins, sulphur compounds, ash, and the steady ticking of decaying radioactive dust. Scraps of plastic cling to shards of foam-metal, the sky tuned to a dead channel.",graphics/icons/markets/pollution.png,110
+공해,오염됨,,,com.fs.starfarer.api.impl.campaign.econ.Pollution,"Human industry has left this world filled with dioxins, sulphur compounds, ash, and the steady ticking of decaying radioactive dust. Scraps of plastic cling to shards of foam-metal, the sky tuned to a dead channel.",graphics/icons/markets/pollution.png,110
 ,,,,,,,
 ,,,,,,,
 드문 광물 매장량,ore_sparse,TRUE,,com.fs.starfarer.api.impl.campaign.econ.ResourceDepositsCondition,"A few sparse ore deposits exist here, but they are more of academic than industrial interest for their extraction is barely economical.",graphics/icons/markets/ore_sparse.png,50
@@ -151,9 +149,9 @@ Vast Ruins,ruins_vast,TRUE,,com.fs.starfarer.api.impl.campaign.econ.BaseHazardCo
 매우 풍부한 휘발성 기체 매장량,volatiles_plentiful,TRUE,,com.fs.starfarer.api.impl.campaign.econ.ResourceDepositsCondition,"$market is a world-sized wellspring of volatiles - rich, deep, and potent.",graphics/icons/markets/volatiles_plentiful.png,40
 ,,,,,,,
 ,,,,,,,
-희귀한 유기물,organics_trace,TRUE,,com.fs.starfarer.api.impl.campaign.econ.ResourceDepositsCondition,"$market is nearly barren of organics reserves, though some extraction is possible.",graphics/icons/markets/organics_trace.png,38
-흔한 유기물,organics_common,TRUE,,com.fs.starfarer.api.impl.campaign.econ.ResourceDepositsCondition,Economically exploitable reserves of organics can be found on $market.,graphics/icons/markets/organics_common.png,38
-풍부한 유기물,organics_abundant,TRUE,,com.fs.starfarer.api.impl.campaign.econ.ResourceDepositsCondition,A river of wealth flows beneath the surface of $market - for those that would find and tap it.,graphics/icons/markets/organics_abundant.png,38
+드문 유기물,organics_trace,TRUE,,com.fs.starfarer.api.impl.campaign.econ.ResourceDepositsCondition,$market은(는) 수확할 만한 유기물이 거의 존재하지 않지만 아주 약간은 수확할 수 있을 듯 합니다,graphics/icons/markets/organics_trace.png,38
+흔한 유기물,organics_common,TRUE,,com.fs.starfarer.api.impl.campaign.econ.ResourceDepositsCondition,$market에서는 경제적으로 의미있는 양의 유기물을 발견할 수 있습니다.,graphics/icons/markets/organics_common.png,38
+풍부한 유기물,organics_abundant,TRUE,,com.fs.starfarer.api.impl.campaign.econ.ResourceDepositsCondition,A river of wealth flows beneath the surface of $market - for those that would find and tap it. ,graphics/icons/markets/organics_abundant.png,38
 매우 풍부한 유기물,organics_plentiful,TRUE,,com.fs.starfarer.api.impl.campaign.econ.ResourceDepositsCondition,"Reservoirs of valuable organics burst through the surface of $market in gouts over deep, dark pools that promise oceans of wealth to be found just below.",graphics/icons/markets/organics_plentiful.png,38
 ,,,,,,,
 ,,,,,,,
